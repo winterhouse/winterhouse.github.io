@@ -5,7 +5,7 @@ description:
 category: blogs
 ---
 
-####mautic
+#### mautic
 
 mautic是一个开源的自动营销平台，好像是目前唯一一个开源的自动营销平台吧，关于自动营销平台之前在学习hubspot的时候简单地提了一下，[链接](https://zhuanlan.zhihu.com/p/21523852?refer=coursera)在这里。
 
