@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 东南大学人文讲座信息查询
-description: 
-category: blogs
+description: 东南大学人文讲座信息查询
+tags: [ skills ]
+category: random-topic
 ---
 
-####东大人文讲座信息
+#### 东大人文讲座信息
 
 最近闲着没事刚好又要写人文讲座报告，然而已经不记得当初听过的讲座有哪些了，只能用小猴偷米查到刷卡的时间，刚好想到每次讲座信息校网上都会发一次通知，就顺手用beautifulsoup写了个爬虫爬讲座信息。
 
