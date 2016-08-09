@@ -4,7 +4,7 @@ title: 乱斗西游
 date:   2015-03-25
 category: game
 description: 乱斗西游111天的游戏经历
-tags:[game]
+tags: [game]
 ---
 
 ### 随便说说

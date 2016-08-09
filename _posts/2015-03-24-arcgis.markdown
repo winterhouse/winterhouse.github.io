@@ -1,10 +1,10 @@
 ---
 layout: post
 title: ArcGIS
-date:   2015-03-24
+date: 2015-03-24
 category: computer
 description: ArcGIS 地理信息系统简介
-tags:[skills]
+tags: [skills]
 ---
 
 ### what is arcgis

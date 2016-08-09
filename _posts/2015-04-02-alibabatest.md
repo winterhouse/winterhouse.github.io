@@ -4,7 +4,7 @@ date:   2015-04-02
 title: 阿里巴巴研发C++笔试
 description: 
 category: technology
-tags:[algorithm,datastructure]
+tags: [algorithm,datastructure]
 ---
 
 ###选择题
