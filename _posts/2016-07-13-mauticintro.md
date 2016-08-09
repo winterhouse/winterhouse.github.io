@@ -15,7 +15,7 @@ mautic是一个开源的自动营销平台，好像是目前唯一一个开源�
 
 mautic是用sympony开发的，部署起来非常简单，我试着把它部署在heroku上，这里不得不提一下heroku的部署实在是太方便了，可以直接设github的resp地址，自动把代码部署上去，代码有更新也会自动更新，国内的云服务就并没有这样方便的功能。
 
-######contact&segments
+###### contact&segments
 
 简单说一下mautic的几个功能吧，第一个是contact，也就是联系人，我的使用经验来看mautic的联系人是用ip来区分的，事实上当然更复杂一些，还有email merge之类的情况，但是简单来说就是每一个访问的ip对应一个contact，contact的页面访问情况被记录在一个page hit的表里，如果你用过google analytics之类的流量统计工具你一定不会陌生，你需要在你的网站上加一段代码来统计流量信息。
 
@@ -40,15 +40,15 @@ mt('send', 'pageview', {email: 'my@email.com', firstname: 'John'});
 
 </pre>
 
-######page&form
+###### page&form
 
 page和form是在mautic上创建的用来attract和收集contact信息的工具，这方面mautic现在功能比较弱，样式比较丑而且不能直接写html源码，只能通过二次开发themes来优化效果。
 
-######Email
+###### Email
 
 Email就是可以对contact发送邮件，这里的邮件内容是可以通过选择contact的属性来进行个性化定制的。触发机制和定时机制当然也是有的。
 
-######Campaign
+###### Campaign
 
 campaign是一个marketing流程，用source，decision，action，condition四种操作来组合，source是对哪些contact进行操作，例如某个segments的contacts或者填写了某个表单的。action是对这些contact进行什么操作，例如发送邮件，或者修改给contact的评分等等。decision是contact做了怎样的动作，例如有没有打开邮件，打开了要对他进行什么action，不打开又是什么action。condition是用来条件过滤掉，通过这四种操作的组合，就可以开发出一个比较复杂的推广系统。
 
@@ -56,7 +56,7 @@ campaign是一个marketing流程，用source，decision，action，condition四�
 
 campaign在创建和更新后是需要通过cronjob来触发的。
 
-######二次开发
+###### 二次开发
 
 [mautic开发文档](https://developer.mautic.org/?php#introduction)
 
