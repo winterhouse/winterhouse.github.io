@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="winterhouse 赵雪冰的个人博客，programming&coursera&growthhacker">
+    <meta name="description" content='{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}'>
     <meta name="author" content="winterhouse">
     <link href='{{ "/img/favicon.ico" | prepend: site.baseurl }}' type='image/icon' rel='shortcut icon'/>
 
