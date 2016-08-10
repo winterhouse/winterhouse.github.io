@@ -7,14 +7,15 @@ tags: [skills]
 description: ArcGIS 地理信息系统简介
 ---
 
-
 ### what is arcgis
+
 ArcGIS产品线为用户提供一个可伸缩的，全面的GIS平台。ArcObjects包含了大量的可编程组件，从细粒度的对象（例如单个的几何对象）到粗粒度的对象（例如与现有ArcMap文档交互的地图对象）涉及面极广，这些对象为开发者集成了全面的GIS功能。每一个使用ArcObjects建成的ArcGIS产品都为开发者提供了一个应用开发的容器，包括桌面GIS（ArcGIS Desktop），嵌入式GIS（ArcGIS Engine）以及服务端GIS（ArcGIS Server）
 [arcgis-online](http://www.arcgis.com/)<!-- more -->
 
 ![Alt text](http://obhvbhenx.bkt.clouddn.com/arcgis_home_pic.JPG "https://www.arcgis.com/home/")  
 
 #### 创建应用程序
+
 这里主要尝试创建一个简单的arcgis web应用。应用可以使用arcgis在线生成，也可以使用arcgis desktop在本地生成后发布到web上，这里使用arcgis online创建。
 
 ##### 选取应用程序的类型
