@@ -11,7 +11,9 @@ tags: [app]
 
 ![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blog/title.png)
 
-##### 画面和音乐
+<!-- more -->
+
+#### 画面和音乐
 
 开头的过场动画确实是太赞了，背景音乐应该是，古琴吧= =，伴随着悠扬的琴声故宫像水墨画一样展开，最后定格在一件艺术品上。
 
@@ -19,7 +21,7 @@ tags: [app]
 
 ![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blogmain.png)
 
-#####操作体验
+#### 操作体验
 
 时间轴按陶瓷种类按时间顺序排列在时间轴上（汝官哥钧，青花，斗彩，釉彩），时间轴的进场动画也很惊艳。点进去可以看每个类别下的艺术品，欣赏每件艺术品的细节。
 ![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blogaxis.png)
@@ -27,9 +29,9 @@ tags: [app]
 每件藏品都可以查看360°旋转（水平），可以看到藏品四周的样子。基本信息包括长款高，内容简介，内容简介也可以播放音频，同时有三张藏品局部的细节图。
 ![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blogdetail.png)
 
-######画面：4分
+#### 画面：4分
 
-######玩法：3.5分
+#### 玩法：3.5分
 
 看评论里有人说审稿不仔细，介绍里有些文字错误，感觉以故宫博物院的身份确实不该犯这种错误。
 

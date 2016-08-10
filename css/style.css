@@ -6,6 +6,8 @@
 body { 
     background-image: url('../img/body.png');
     font-family: '微软雅黑';
+    margin-left:auto;
+    margin-right:auto;
  }
 .readmore {
 	margin-right: 5px;
