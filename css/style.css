@@ -5,6 +5,7 @@
 
 body { 
     background-image: url('../img/body.png');
+    font-family: '微软雅黑';
  }
 .readmore {
 	margin-right: 5px;
