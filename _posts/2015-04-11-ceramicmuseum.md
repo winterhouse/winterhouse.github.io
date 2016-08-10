@@ -1,29 +1,31 @@
 ---
 layout: post
 title: 故宫陶瓷馆
+date:   2015-04-11
 category: game
 description: 故宫博物院出品，故宫陶瓷馆
+tags: [app]
 ---
 
 故宫博物院出品的应用一直给人精美的感觉，这一次的故宫陶瓷馆虽然个人感觉没有以前的应用精美，但仍然是不错的应用。
 
-![Alt text](../../img/ceramicmuseum/title.png)
+![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blog/title.png)
 
-#####画面和音乐
+##### 画面和音乐
 
 开头的过场动画确实是太赞了，背景音乐应该是，古琴吧= =，伴随着悠扬的琴声故宫像水墨画一样展开，最后定格在一件艺术品上。
 
 个人感觉APP内部的画质相比于故宫以前的画质要低一些，不过还是很不错，那么多件藏品把APP做到不足300M其实挺不容易的。APP内部好像没有背景音乐，算是一个遗憾吧。
 
-![Alt text](../../img/ceramicmuseum/main.png)
+![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blogmain.png)
 
 #####操作体验
 
 时间轴按陶瓷种类按时间顺序排列在时间轴上（汝官哥钧，青花，斗彩，釉彩），时间轴的进场动画也很惊艳。点进去可以看每个类别下的艺术品，欣赏每件艺术品的细节。
-![Alt text](../../img/ceramicmuseum/axis.png)
+![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blogaxis.png)
 
 每件藏品都可以查看360°旋转（水平），可以看到藏品四周的样子。基本信息包括长款高，内容简介，内容简介也可以播放音频，同时有三张藏品局部的细节图。
-![Alt text](../../img/ceramicmuseum/detail.png)
+![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blogdetail.png)
 
 ######画面：4分
 
