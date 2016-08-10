@@ -2,7 +2,6 @@
 <html>
 
   {% include head.html %}
-  <script type="text/javascript" src="../../../../js/highlighter/shBrushCpp.js"></script>
  <body>
 <div id="wrapper">
  {% include header.html %}
@@ -31,6 +30,16 @@
 <hr>
  {% include footer.html %}
 </div>
-  </body>
-
+ </body>
+  <script type="text/javascript" src="../../../../js/highlighter/shBrushCpp.js"></script>
+  	<!-- Include *at least* the core style and default theme -->
+	<link href="../../../../css/highlighter/shCore.css" rel="stylesheet" type="text/css" />
+	<link href="../../../../css/highlighter/shThemeMidnight.css" rel="stylesheet" type="text/css" />
+	 
+	<!-- You also need to add some content to highlight, but that is covered elsewhere. -->
+	 
+	<!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
+	<script type="text/javascript">
+		 SyntaxHighlighter.all()
+	</script>
 </html>
