@@ -10,7 +10,8 @@ description: 勇敢的心
 埃米尔是一个法国农民，第一个场景就是埃米尔应招参军的场景，年迈的埃米尔穿着一身老农的衣服，站在一个征兵的院子里，当他走进征兵的那个小屋之后，他就换上了一身军装，然后进行了简单的新兵训练，然后就跟许多法国士兵一起坐着火车开往前线。
 
 ![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blog/valiantheartimg_0309.png)
-![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blog/valiantheartimg_0310.png)
+![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blog/valiantheartimg_0310.png) 
+<!-- more -->
 
 在火车上他遇到了华莱士，华莱士是一个美国人，法国士兵在站台上等着开往前线看到这个又黑又壮的美国人就开始欺负他，埃米尔用计驱散了那些法国士兵，在那个战争的年代，人们大概都是没有什么朋友的吧，像华莱士这样沦落异国的人朋友就更少了，所以人和人之间的交往才能这么单纯吧，之后两个人就各自奔赴了前线。
 ![Alt text](http://obhvbhenx.bkt.clouddn.com//image/blog/valiantheartimg_0314.png)
