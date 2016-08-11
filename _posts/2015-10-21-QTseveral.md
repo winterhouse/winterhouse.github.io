@@ -1,11 +1,11 @@
 ---
-layout: post_code
+layout: post_cpp
 title: QT杂谈
-description: 
-category: blogs
+description: QT杂谈
+category: technology
 ---
 
-#####QT字符串
+### QT字符串
 
 当QString和std::string互相转换时，容易出现很多问题
 [Convert QString to string](http://stackoverflow.com/questions/4214369/how-to-convert-qstring-to-stdstring)
@@ -18,9 +18,9 @@ QString是使用utf-16编码的，但是std::string可能会是很多其他不�
 
 [QT国际化](http://www.kuqin.com/qtdocument/i18n.html)，QString的出现是为了满足QT跨平台跨地域的需要，因此使用了utf的编码格式，无论是从文件中读取还是其他方式获取的byte，都尽量使用QT的方法来处理（使用QT的文件流，QT的http方法），这样可以保证你的byte不会被莫名其妙地改变某些东西。
 
+<!-- more -->
 
-
-#####QT信号&槽
+### QT信号&槽
 [signal&slot](http://doc.qt.io/qt-4.8/signalsandslots.html)
 
 QT的slot和signal类似于callback，当对象状态发生改变时，可以释放自己定义的signal，然后由对应的slot进行处理
@@ -68,7 +68,7 @@ private:
 在QTCreator中使用signal和slot是非常方便的，基本上没有什么技术含量。但是实现原理也是非常复杂，我也是没有看懂。。
 [concept](http://woboq.com/blog/how-qt-signals-slots-work.html)
 
-#####QT NetworkManager
+### QT NetworkManager
 
 [networkmanager example](http://stackoverflow.com/questions/4509441/qt-http-post-issue-when-server-requires-cookies)
 

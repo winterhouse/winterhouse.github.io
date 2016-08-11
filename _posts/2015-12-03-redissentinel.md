@@ -1,18 +1,20 @@
 ---
-layout: post
+layout: post_py
 title: redis sentinel介绍及一个小bug
-description: 
-category: blogs
+description: redis sentinel介绍及一个小bug
+category: technology
 ---
 
 
-####redissentinel简介
+### redissentinel简介
 
 redis sentinel是一种特殊的redis服务器，但仍然是一种redis服务器，在启动过程中，会将运行代码从redis代码替换为sentinel代码。
 
 sentinel的主要作用是在主从环境下，在主redis宕机后，在从redis中选出新的主redis，保证分布式缓存能正常工作。
 
-#####配置文件
+<!-- more -->
+
+### 配置文件
 
 主redis：master
 从redis: slave
@@ -28,7 +30,7 @@ sentinel known-slave mymaster 10.171.91.230 6379
 
 这部分是sentinel自己维护的，但是我们也可以提前设置有哪些slave,要注意的一个问题（也算是bug）是，如果know-slave 的ip port和监听的master ip port 相同的话，sentinel仍然会将master设置成slave（sentinel的设置流程下面会提到），也就是master会变成自己的slave，这是一个很悲惨的事情，master的状态会变成down，因为master自身连不上master（它在连的master就是它自己），如果sentinel们选出了新的master，那么一切会恢复正常，如果没有，= =。当然这是一种很极端的情况，但是在使用的时候也不是没有出现的可能。
 
-#####工作流程
+### 工作流程
 
 sentinel启动后，加载配置文件，将当前的配置保存在一个结构体sentinelRedisInstance中。
 
@@ -100,7 +102,7 @@ sentinel启动后，加载配置文件，将当前的配置保存在一个结构
 
 21012:X 03 Dec 10:23:47.066 # +sdown slave 10.171.91.230:6379 10.171.91.230 6379 @ mymaster 10.171.144.224 6379
 
-#####小bug的问题
+### 小bug的问题
 
 关于之前提到的那个小bug，可以很容易的在redis源码里修改，sentinel.c是redis sentinel的实现源码，其中包括sentinelRedisInstance等结构体和其他接口，redis的命令是通过hiredis来实现的，在其中有这样一个函数
 

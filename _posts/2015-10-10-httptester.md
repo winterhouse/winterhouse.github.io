@@ -1,11 +1,11 @@
 ---
-layout: post_code
+layout: post_py
 title: SimpleHTTPTest
 description: 
-category: blogs
+category: technology
 ---
 
-####定时发送http请求
+### 定时发送http请求
 
 <pre class="brush: py">
 
@@ -77,7 +77,9 @@ class planrequest:
         return reqip
 </pre>
 
-####并发http请求
+<!-- more -->
+
+### 并发http请求
 
 <pre class="brush: py">
 

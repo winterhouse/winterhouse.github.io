@@ -2,7 +2,8 @@
 layout: post
 title: mautic简介
 description: 
-category: blogs
+category: technology
+tags: [growthhacker]
 ---
 
 ### mautic
@@ -14,6 +15,8 @@ mautic是一个开源的自动营销平台，好像是目前唯一一个开源�
 [mautic文档](https://mautic.org/docs/en/index.html)
 
 mautic是用sympony开发的，部署起来非常简单，我试着把它部署在heroku上，这里不得不提一下heroku的部署实在是太方便了，可以直接设github的resp地址，自动把代码部署上去，代码有更新也会自动更新，国内的云服务就并没有这样方便的功能。
+
+<!-- more -->
 
 #### contact&segments
 

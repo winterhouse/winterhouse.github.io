@@ -1,11 +1,12 @@
 ---
-layout: post_code
+layout: post_py
 title: Mapreduce part 1
-category: blogs
-description: 
+category: technology
+description: Mapreduce part 1
+tags: [bigdata,coursera]
 ---
 
-####MapReduce
+### MapReduce
 
 通过coursera课上一个hadoop最基本的例子来看mapreduce，统计单词出现的次数。
 
@@ -124,7 +125,7 @@ if last_key == this_key:
 </pre>
 
 
-#####reducetasks 为 0时的输出
+### reducetasks 为 0时的输出
 
 <pre class="brush: python">
 
@@ -159,7 +160,7 @@ Wars	1
 
 </pre>
 
-#####reducetasks 为 1时的输出
+### reducetasks 为 1时的输出
 
 <pre class="brush: python">
 
@@ -187,7 +188,7 @@ time	1
 
 </pre>
 
-#####reducetasks 为 2时的输出
+### reducetasks 为 2时的输出
 
 <pre class="brush: python">
 

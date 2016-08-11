@@ -1,11 +1,12 @@
 ---
-layout: post_code
+layout: post_py
 title: Mapreduce Part2
-category: blogs
-description: 
+category: technology
+description: Mapreduce part 2
+tags: [bigdata,coursera]
 ---
 
-#####Map Reduce join
+### Map Reduce join
 
 课程首先给出了一个关于join的例子，首先是文件的内容
 
@@ -43,7 +44,7 @@ Feb-23 burger 5 15
 
 需要注意的是reduce接收到的输入时根据key值合并后的结果。
 
-#####mapper
+### mapper
 
 <pre class="brush: python">
 

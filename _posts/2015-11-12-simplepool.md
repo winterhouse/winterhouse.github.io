@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 一个奇怪的连接池
-description: 
-category: blogs
+description: 一个奇怪的连接池
+category: technology
 ---
 
 [object pool](https://sourcemaking.com/design_patterns/object_pool)
@@ -13,6 +13,8 @@ category: blogs
 Pool里用一个set成员变量保存所有的连接，当调用getconnection成员方法的时候就在连接池里查找，如果有可用的连接，就获取返回该连接，并且从set中去掉该连接，当client使用完毕以后，再用put成员方法将connection put回连接池里，我觉得唯一需要修改的就是连接池没有最大连接数的限制。我已经pull request了,这也是我人生中第一个被不认识的人接受的request。。。
 
 但是在看组里数据库的连接池的代码时，却发现组里的连接池并不是正常的连接池做法。
+
+<!-- more -->
 
 connection是连接类
 
