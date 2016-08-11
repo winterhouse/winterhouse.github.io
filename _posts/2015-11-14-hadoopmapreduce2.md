@@ -12,6 +12,8 @@ tags: [bigdata,coursera]
 
 testfile1
 
+<!-- more -->
+
 <pre class="brush: python">
 
 able,991

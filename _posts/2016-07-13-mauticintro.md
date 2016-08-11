@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mautic简介
-description: 
+description: mautic简介
 category: technology
 tags: [growthhacker]
 ---
